@@ -31,8 +31,8 @@ RealTimeGameManager::RealTimeGameManager(std::function<Track()> trackCreator) :
 	turnTelemetry.setAutomaticBoundsDetection(false);
 	turnTelemetry.setBounds(-1.f, 1.f);
 
-	gameView.setCenter(0.f, 0.f);
-	gameView.setSize(1000.f, 1000.f);
+	gameView.setCenter(4500.f, 5000.f);
+	gameView.setSize(15000.f, 15000.f);
 	hudView = window.getDefaultView();
 
 }

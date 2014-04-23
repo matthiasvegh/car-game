@@ -279,7 +279,7 @@ Track createSilverstoneTrack() {
 
 
 	for(auto& point: points) {
-		const auto scaleFactor = 3.f;
+		const auto scaleFactor = 6.f;
 		point.x *= scaleFactor;
 		point.y *= scaleFactor;
 	}
