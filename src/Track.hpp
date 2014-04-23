@@ -49,6 +49,7 @@ private:
 Track createCircleTrack();
 Track createZigZagTrack();
 Track createCurvyTrack();
+Track createSilverstoneTrack();
 
 }
 

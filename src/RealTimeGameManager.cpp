@@ -32,7 +32,7 @@ RealTimeGameManager::RealTimeGameManager(std::function<Track()> trackCreator) :
 	turnTelemetry.setBounds(-1.f, 1.f);
 
 	gameView.setCenter(0.f, 0.f);
-	gameView.setSize(150.f, 150.f);
+	gameView.setSize(1000.f, 1000.f);
 	hudView = window.getDefaultView();
 
 }

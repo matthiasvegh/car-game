@@ -52,6 +52,9 @@ int main(int argc, char **argv) {
 	case TrackType::curvy:
 		trackCreator = createCurvyTrack;
 		break;
+	case TrackType::silverstone:
+		trackCreator = createSilverstoneTrack;
+		break;
 	}
 
 	std::srand(std::time(0));
